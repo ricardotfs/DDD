@@ -5,11 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Handlres\ContatoHandlers.cs~RF2cafd9ce.TMP" />
+    <Compile Remove="NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="NewFolder\" />
+    <None Remove="Handlres\ContatoHandlers.cs~RF2cafd9ce.TMP" />
   </ItemGroup>
 
 </Project>
