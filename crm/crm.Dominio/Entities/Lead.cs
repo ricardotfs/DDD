@@ -1,4 +1,4 @@
-﻿﻿using crm.Dominio.ValueObjects;
+﻿using crm.Dominio.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -29,22 +29,22 @@ namespace crm.Dominio.Entities
             Enderco = endereco;
             RedesSociais = redesSociais;
         }
-        public int Id { get; set; }
+        public int Id { get; private set; }
         public Nome Nome { get; private set; }
-        public EMAIL Email { get; set; }
-        public string Rg { get; set; }
-        public string OrgaoEmissor { get; set; }
-        public DateTime? DataExpedicao { get; set; }
-        public string NomeMae { get; set; }
-        public string Score { get; set; }
-        public string TelefoneComercial { get; set; }
-        public string TelefoneCelular { get; set; }
-        public string TelefoneResidencial { get; set; }
-        public WebSite WebSite { get; set; }
-        public DateTime? DataNascimento { get; set; }
-        public CNPJ Cnpj { get; set; }
-        public string NomeEmpresa { get; set; }
-        public Endereco Enderco { get; set; }
-        public RedesSociais RedesSociais { get; set; }
+        public EMAIL Email { get; private set; }
+        public string Rg { get; private set; }
+        public string OrgaoEmissor { get; private set; }
+        public DateTime? DataExpedicao { get; private set; }
+        public string NomeMae { get; private set; }
+        public string Score { get; private set; }
+        public string TelefoneComercial { get; private set; }
+        public string TelefoneCelular { get; private set; }
+        public string TelefoneResidencial { get; private set; }
+        public WebSite WebSite { get; private set; }
+        public DateTime? DataNascimento { get; private set; }
+        public CNPJ Cnpj { get; private set; }
+        public string NomeEmpresa { get; private set; }
+        public Endereco Enderco { get; private set; }
+        public RedesSociais RedesSociais { get; private set; }
     }
 }
